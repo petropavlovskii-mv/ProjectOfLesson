@@ -40,4 +40,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Обучение</subsystems>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
 </mdclass:Configuration>
