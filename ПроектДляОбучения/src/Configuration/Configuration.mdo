@@ -42,5 +42,7 @@
   <subsystems>Subsystem.Обучение</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Организация</catalogs>
+  <catalogs>Catalog.Контрагент</catalogs>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
 </mdclass:Configuration>
