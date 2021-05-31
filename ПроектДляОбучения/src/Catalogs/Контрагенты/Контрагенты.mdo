@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1e95df9-245c-4a0b-9f8f-55f6df0899ca">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f3b62d0-2bbc-4de8-b90f-c28fe2b48143">
   <producedTypes>
-    <objectType typeId="e94c6e20-fac1-4968-8905-9a78a53d0b25" valueTypeId="d614a226-1002-4bc4-9752-9c75f465f4a4"/>
-    <refType typeId="075039e2-3e2b-4fa3-a4bb-30bc0d58ba79" valueTypeId="890fd62f-e159-4eed-be80-302816e4b1fb"/>
-    <selectionType typeId="4a7ab2a2-92cd-4d10-8d63-5bf4bded54f5" valueTypeId="6e238734-2cbf-40b1-ba67-6f10b5304c4f"/>
-    <listType typeId="12aa846a-2934-4a19-9f64-fe6cad28df5f" valueTypeId="812cd3a9-7b3d-4ab0-9452-82695b2b5eed"/>
-    <managerType typeId="262bbfe6-237c-49e6-a013-5f5356c774a4" valueTypeId="55a15cd2-1b72-490c-a2c1-937b76999576"/>
+    <objectType typeId="1dfa4c92-e806-4d21-8d58-44eebf50eab5" valueTypeId="e40bff1e-4abc-4147-93fb-f69c40d13524"/>
+    <refType typeId="4ed65ee9-c5e4-4d27-b37b-fec53e681de4" valueTypeId="49837daf-ed87-430b-a6e4-b318827f766c"/>
+    <selectionType typeId="c0edb8af-694f-4e51-9a36-016b60e503cb" valueTypeId="f617af33-71f4-402a-b36b-1022e968e70b"/>
+    <listType typeId="795228a0-cd05-4af6-9277-05fdac093cd7" valueTypeId="0492e633-9608-4664-8d07-099c6ea07277"/>
+    <managerType typeId="6acfea3c-fe7c-440d-8245-e8d7916a4ac5" valueTypeId="976bce35-acc5-4364-b144-8cb56736696d"/>
   </producedTypes>
-  <name>Организация</name>
+  <name>Контрагенты</name>
   <synonym>
     <key>ru</key>
-    <value>Организация</value>
+    <value>Контрагенты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Организация.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Организация.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="c58ed1a2-d8ca-4bda-9090-4b295d83ba2b">
+  <attributes uuid="3c8c9649-8d92-42bd-95ea-4af853dc6e40">
     <name>ИНН</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +48,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="411588d2-6bcf-4e79-ae61-507c67ffade5">
+  <attributes uuid="d29f6296-9f76-4257-b771-123d9b8d5521">
     <name>КПП</name>
     <synonym>
       <key>ru</key>
@@ -66,7 +66,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ef9d9ce2-c14e-4add-9e27-9a3f5cfdf4ee">
+  <attributes uuid="123d70f4-4a9e-4a6c-961d-623bb63300c8">
     <name>АдресРегистрации</name>
     <synonym>
       <key>ru</key>
